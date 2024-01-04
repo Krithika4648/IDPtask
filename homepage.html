@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDP Email Generator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/Logo.png" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="welcome-header">Welcome, please fill in your details</h1>
+      <div class="container">
+        <form id="user-form">
+          <div class="form-input">
+            <label for="id">CRM id:</label>
+            <input
+              type="text"
+              id="id"
+              name="id"
+              placeholder="Enter ID*"
+              required
+            />
+          </div>
+          <div class="form-input">
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="Enter First Name*"
+              required
+            />
+          </div>
+          <div class="form-input">
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Enter Last Name"
+            />
+          </div>
+          <button type="submit" id="button-email">Generate Email ID</button>
+        </form>
+      </div>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
